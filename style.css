@@ -1,0 +1,36 @@
+.contenedor {
+    margin: 20px;
+    font-family: cursive;
+    height: 300px;
+    width: 700px;
+    border: gray solid;
+    position: relative;
+}
+
+.bloque {
+    /*width: auto; no es necesario colocarlo ya que
+    con display flex se adapta*/
+    height: 70px;
+    background: rgb(28, 152, 156);
+    display: flex;
+    
+}
+
+.bloque img {
+    border: white solid;
+    border-radius: 50%;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.bloque2 {
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.bloque2 img {
+    width: 10px;
+    margin-right: 5px;
+}
+
